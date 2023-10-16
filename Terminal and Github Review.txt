@@ -1,0 +1,36 @@
+Terminal:
+(make sure in Gitbash)
+pwd
+ls
+clear
+cd
+cd .
+cd ..
+cd ~
+mkdir (path+)FolderName
+rmdir FolderName
+touch FileName.txt
+rm FileName.txt
+rm *.csv
+rm filename1 filename2
+rm -r FolderName
+
+GitHub:
+git clone <HTTPS>
+git status
+git diff FileName (view changes of a file)
+git add FileName
+git add .
+git commit -m "Meaningful Message"
+git commit -am "Meaningul Message"
+git push
+git pull
+git log
+git init
+git restore/reset/checkout FileName (unstages all changes made to file and reverts to last pull)
+Branches:
+git branch (shows local)
+git branch -r (shows remote)
+git checkout -b <nameOfBranch> OR git switch -c
+git switch
+
